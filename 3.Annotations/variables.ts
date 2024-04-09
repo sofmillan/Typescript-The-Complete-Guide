@@ -19,3 +19,11 @@ function logNumber(i:number):void{
 const logNumber2: (a:number) => void = (i:number) =>{
     console.log(i);
 }
+
+const json = '{"x":10,"y":20}';
+const coordinate = JSON.parse(json);
+console.log(coordinate); //type any
+
+
+const coordinate2: {x:number, y:number} = JSON.parse(json);
+console.log(coordinate2); //type {x: number;y: number;}
