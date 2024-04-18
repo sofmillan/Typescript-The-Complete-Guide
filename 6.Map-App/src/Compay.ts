@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
+import { Mappable } from "./CustomMap";
 
-export class Company{
+export class Company implements Mappable{
     name: string;
     catchPhrase: string;
     location:{
@@ -16,6 +17,7 @@ export class Company{
             lng: parseFloat(faker.address.longitude())
         }
     }
+    color: string = 'red';
 
     markerContent():string{
         return `
