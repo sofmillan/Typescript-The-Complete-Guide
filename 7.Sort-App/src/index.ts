@@ -1,3 +1,8 @@
-console.log("Hi")
+class Sorter{
+    constructor(public collection: number[]){
+    }
 
-console.log("123");
+    sort():void{
+        
+    }
+}

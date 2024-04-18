@@ -1,3 +1,8 @@
 "use strict";
-console.log("Hi");
-console.log("123");
+class Sorter {
+    constructor(collection) {
+        this.collection = collection;
+    }
+    sort() {
+    }
+}
