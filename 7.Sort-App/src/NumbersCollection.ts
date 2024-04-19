@@ -1,4 +1,4 @@
-export class NumebersCollection{
+export class NumbersCollection{
     data: number[];
     
     constructor(data: number[]){
