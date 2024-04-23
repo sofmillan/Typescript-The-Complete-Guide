@@ -8,7 +8,7 @@ export interface OutputTarget{
     print(report: string):void;
 }
 
-export class Sumamry{
+export class Summary{
     constructor(public analyzer:Analyzer, public outputTarget:OutputTarget){}
 
     buildAndPrintReport(matches: MatchData[]): void{
