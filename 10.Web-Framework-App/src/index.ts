@@ -4,4 +4,3 @@ const user = new User({id:1});
 
 user.set({name:'Gyuvin', age:20});
 
-user.save();
