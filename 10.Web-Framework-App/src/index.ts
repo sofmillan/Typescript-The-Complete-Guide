@@ -1,6 +1,7 @@
 import { User } from "./models/User";
 
-const user = new User({id:1});
+const user = new User({name: 'Ricky', age:20});
 
-user.set({name:'Gyuvin', age:20});
-
+user.on('change', ()=>{
+    
+})
