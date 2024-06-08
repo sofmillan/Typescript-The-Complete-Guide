@@ -1,1 +1,4 @@
-console.log("object");
+import express from 'express';
+
+const app = express();
+
