@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 
+//without this parser the body property of the request would be undefined
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(router);
 
